@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedbox Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        #events .event {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        #events .event img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Feedbox</h1>
+        <p>Connecting Minds, Sharing Ideas</p>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Feedbox is a dynamic club aimed at fostering creativity, collaboration, and innovation. Join us to explore new horizons and share your ideas with like-minded individuals.</p>
+    </section>
+    <section id="events">
+        <h2>Past Events</h2>
+        <div class="event">
+            <img src="https://via.placeholder.com/300" alt="Event 1">
+            <p>Workshop on Design Thinking - November 2024</p>
+        </div>
+        <div class="event">
+            <img src="https://via.placeholder.com/300" alt="Event 2">
+            <p>Hackathon 2024 - October 2024</p>
+        </div>
+    </section>
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: feedboxclub@example.com | Instagram: @feedboxclub</p>
+    </footer>
+</body>
+</html>
